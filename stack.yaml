@@ -1,0 +1,11 @@
+resolver: lts-11.13
+
+extra-package-dbs: []
+
+packages:
+- .
+
+- location:
+    git: https://github.com/erikd/submodule-demo-a
+    commit: c377294a2f3d019e5eded1ef1b354689f93fc54a
+  extra-dep: true
